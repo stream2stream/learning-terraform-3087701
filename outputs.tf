@@ -11,5 +11,5 @@ output "ec2_global_ips" {
 }
 
 output "ec2_global_domainNames" {
-  value = ["${aws_instance.blog.*.public_dns}"]
+  value = ["${aws_instance.blog.public_dns}"]
 }
