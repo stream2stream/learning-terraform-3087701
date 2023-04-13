@@ -1,4 +1,4 @@
 
-output "ec2_load_balancer" {
+output "environment_url" {
     value = ["${module.blog_alb.lb_dns_name}"]
 }
